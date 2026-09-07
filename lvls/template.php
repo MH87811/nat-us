@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-
     <title>
         Level <?= htmlspecialchars($lvl) ?>
     </title>
 </head>
-
 <body>
 
 <h1>
@@ -20,5 +17,4 @@
 </div>
 
 </body>
-
 </html>

@@ -18,10 +18,10 @@ class Router
     public function run()
     {
         $method = $_SERVER['REQUEST_METHOD'];
-        $url = $_SERVER['REQUEST_URI'];
+        $url = parse_url($_SERVER['REQUEST_URI']);
 
         foreach ($this->routes as $route) {
-            if ($route['method'] == $method && $route['path'] == $url) {
+            if ($route['method'] == $method && $route['path'] == $url['path']) {
                 call_user_func($route['handler']);
                 return;
             }

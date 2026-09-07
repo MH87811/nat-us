@@ -37,7 +37,7 @@ $valid_credentials = [
     '30' => ['username' => 'user', 'password' => 'pass'],
 ];
 
-if (!isset($valid_credentials[$lvl])) {
+if (!isset($valid_credentials["$lvl"])) {
     http_response_code(404);
     echo 'Level not found.';
     exit;
