@@ -2,10 +2,7 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/lvls/lvl-3" />
-      <excludeFolder url="file://$MODULE_DIR$/lvls/lvl-4" />
       <excludeFolder url="file://$MODULE_DIR$/lvls/lvl-6" />
-      <excludeFolder url="file://$MODULE_DIR$/lvls/lvl-9" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

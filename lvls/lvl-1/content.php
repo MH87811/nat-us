@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Level <?= "$lvl + 1" ?></title>
+    <title>Level <?= $lvl ?></title>
 </head>
 <body>
 <!-- Password is: pass -->
