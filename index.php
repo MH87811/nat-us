@@ -18,5 +18,6 @@ $router->add('POST', '/auth', function () { include __DIR__ . '/auth.php'; });
 $router->add('GET', "/", function () { include __DIR__ . '/index.html'; });
 $router->add('POST', '/lvl-8', function() { $lvl = 8; include __DIR__ . '/lvls/lvl-8/content.php'; });
 $router->add('POST', '/lvl-13', function() { $lvl = 13; include __DIR__ . '/lvls/lvl-13/content.php'; });
+$router->add('POST', '/lvl-18/status', function() { $lvl = 18; include __DIR__ . '/lvls/lvl-18/status.php'; });
 
 $router->run();
